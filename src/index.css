@@ -1,0 +1,35 @@
+@font-face{
+  font-family:'Righteous' ;
+  src:url('./assets/fonts/Righteous.ttf')
+}
+@font-face{
+  font-family:'PTSerif-Regular' ;
+  src:url('./assets/fonts/PTSerif-Regular.ttf')
+}
+@font-face {
+  font-family: 'AlfaSlabOne';
+  src: url('./assets/fonts/AlfaSlabOne.ttf')
+}
+@font-face {
+  font-family: 'BungeeSpice-Regular';
+  src: url('./assets/fonts/BungeeSpice-Regular.ttf')
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PTSerif-Regular' , sans-serif;
+
+}
+
+.Righteous{
+  font-family: 'Righteous';
+}
+
+.BungeeSpice-Regular{
+  font-family: 'BungeeSpice-Regular';
+}
+.PTSerif-Regular{
+  font-family: 'PTSerif-Regular';
+}

@@ -1,0 +1,76 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "The tiltle of the first article",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      "image": "https://dl.next1code.ir/images/react/article1.webp",
+      "readingTime": "24",
+      "category": "User interface",
+      "writer": "Sara Zamani"
+    },
+    {
+      "id": "2",
+      "title": "The tiltle of the second article",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      "image": "https://dl.next1code.ir/images/react/article2.webp",
+      "readingTime": "30",
+      "category": "Mobile Design",
+      "writer": "Mehdi Heydari"
+    },
+    {
+      "id": "3",
+      "title": "The tiltle of the third article",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      "image": "https://dl.next1code.ir/images/react/article3.webp",
+      "readingTime": 30,
+      "category": "Web design",
+      "writer": "Ali Hassani"
+    },
+    {
+      "id": "4",
+      "title": "The tiltle of the fourth article",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      "image": "https://dl.next1code.ir/images/react/article4.webp",
+      "readingTime": 17,
+      "category": "C++",
+      "writer": "Sahar Maleki"
+    },
+    {
+      "id": "5",
+      "title": "The tiltle of the fifth article",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      "image": "https://dl.next1code.ir/images/react/article5.webp",
+      "readingTime": 22,
+      "category": "Graphic design",
+      "writer": "Mahnaz Azizi"
+    },
+    {
+      "id": "6",
+      "title": "The tiltle of the sixth article",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      "image": "https://dl.next1code.ir/images/react/article6.webp",
+      "readingTime": 15,
+      "category": "User interface",
+      "writer": "Mehdi Heydari"
+    },
+    {
+      "id": "7",
+      "title": "The tiltle of the seventh article",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      "image": "https://dl.next1code.ir/images/react/article7.webp",
+      "readingTime": 45,
+      "category": "User interface",
+      "writer": "Babak Hamidi"
+    },
+    {
+      "id": "8",
+      "title": "The tiltle of the eighth article",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "readingTime": 20,
+      "category": "python",
+      "writer": "Hoda Arab"
+    }
+  ]
+}

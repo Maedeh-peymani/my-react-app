@@ -1,0 +1,39 @@
+.articleCardContainer{
+  box-shadow: rgba(60, 64, 67,0.3) 0px 2px 10px, rgba(0, 0, 0, 0.2) 0px 1px 3px;
+  border-radius: 10px;
+  position: sticky;
+  top:40px
+}
+
+.cardHeader{
+  width:85%;
+  position:relative;
+  top:-20px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.cardHeader img{
+  width:100%;
+  height:auto;
+  border-radius: 10px;
+}
+.cardHeader h4{
+  margin-top: 20px;
+}
+
+.cardBody{
+  padding: 10px 15px;
+}
+
+.cardFooter{
+  padding:0 0 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardFooter button{
+  margin:0 5px;
+ }
