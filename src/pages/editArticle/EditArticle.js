@@ -19,13 +19,13 @@ function EditArticle(){
 
 
   useEffect(() => {
-     axios.get(`http://localhost:8000/articles/${articleId}`)
-     .then (response => setArticleData(response.data))
+     axios.get(`http://localhost/react/react/api/articles/?id=${articleId}`)
+     .then (response => setArticleData(response.data.data[0]))
    },[])
 
 
   const editArticleHandler = () => {
-    axios.put(`http://localhost:8000/articles/${articleId}`,articleData)
+    axios.put(`http://localhost/react/react/api/articles/?id=${articleId}`, articleData)
     Swal.fire({
       title: 'Your article has been edited successfully!',
       timer: 2000,
@@ -56,8 +56,8 @@ function EditArticle(){
          <Form.Group className="mb-3">
          <Form.Label>Short explanation</Form.Label>
          <Form.Control 
-         value = {articleData.desc}
-         name="desc"
+         value = {articleData.description}
+         name="description"
          onChange={formHandler}
          type="text" placeholder="" />
          </Form.Group>
@@ -65,8 +65,8 @@ function EditArticle(){
          <Form.Group className="mb-3">
          <Form.Label>Writer</Form.Label>
          <Form.Control 
-         value = {articleData.writer}
-         name="writer"
+         value = {articleData.writter}
+         name="writter"
          onChange={formHandler}
          type="text" placeholder="" />
          </Form.Group>

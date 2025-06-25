@@ -8,7 +8,7 @@ import './MyNavbar.css'
 function MyNavbar(){
   const expand = "md";
   return(
-    <Navbar key={expand} expand={expand}  style={{backgroundColor:'#ccc'}} className=" mb-3">
+    <Navbar key={expand} expand={expand}  style={{backgroundColor:'#f3f4f5'}} >
           <Container >
             <Navbar.Brand href="#" className='Righteous fs-4'>Byte By Byte</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -26,6 +26,8 @@ function MyNavbar(){
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <NavLink className='nav-link' to='/'>Home</NavLink>
                   <NavLink className='nav-link' to='/add-article'>Create Article</NavLink>
+                  <NavLink className='nav-link' to='/articles'>Articles</NavLink>
+                  <NavLink className='nav-link' to='/courses'>Courses</NavLink>
                   <NavLink className='nav-link' to= '/about'>About Us</NavLink>
                 </Nav>
               </Offcanvas.Body>

@@ -12,18 +12,18 @@ function AddArticle(){
   const resetFormData =() =>{
     setFormData({
       title: '',
-      desc: '',
+      description: '',
       image: '',
-      writer: '',
+      writter: '',
       readingTime:'',
       category:''
     })
 
   }
   const addArticleHandler = () => {
-    axios.post('http://localhost:8000/articles', formData)
+    axios.post("http://localhost/react/react/api/articles/", formData)
     .then(response => {
-      if(response.status=== 201){
+      if(response.status=== 200){
         Swal.fire({
           title: 'Your article has been created successfully!',
           timer: 2000,
@@ -67,15 +67,15 @@ function AddArticle(){
         <Form.Group className="mb-3">
         <Form.Label>Short explanation</Form.Label>
         <Form.Control 
-        value = {formData.desc}
-        name="desc"
+        value = {formData.description}
+        name="description"
         onChange={formHandler} type="text" placeholder="" />
         </Form.Group>
 
         <Form.Group className="mb-3">
         <Form.Label>Writer</Form.Label>
         <Form.Control 
-        value = {formData.writer}
+        value = {formData.writter}
         name="writer"
         onChange={formHandler} type="text" placeholder="" />
         </Form.Group>

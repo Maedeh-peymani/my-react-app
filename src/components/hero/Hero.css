@@ -1,0 +1,23 @@
+.heroContainer{
+  background:#f3f4f5;
+}
+.heroImg{
+  background: #fff;
+  border-radius: 68% 32% 74% 26% / 39% 56% 44% 61% ;
+  width: 480px;
+}
+.heroTitle{
+  font-family: 'AlfaSlabOne';
+  text-align: center;
+  font-size: 30px;
+  padding: 40px 0;
+
+}
+.startLearning{
+  padding:50px 0 0 40px;
+  text-align: right;
+
+}
+.startLearning b{
+  font-size: 30px;
+}

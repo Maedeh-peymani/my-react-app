@@ -32,7 +32,7 @@
       "title": "The tiltle of the fourth article",
       "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
       "image": "https://dl.next1code.ir/images/react/article4.webp",
-      "readingTime": 17,
+      "readingTime": "23",
       "category": "C++",
       "writer": "Sahar Maleki"
     },

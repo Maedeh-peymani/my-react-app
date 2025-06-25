@@ -20,8 +20,8 @@ function Article(){
 
 
  useEffect(() => {
-  axios.get(`http://localhost:8000/articles/${articleId}`)
-  .then (response => setArticleData(response.data))
+  axios.get(`http://localhost/react/react/api/articles/?id=${articleId}`)
+  .then (response => setArticleData(response.data.data[0]))
 
  },[])
 
@@ -49,7 +49,7 @@ function Article(){
         text: "Your article has been deleted.",
         icon: "success"
       })
-      axios.delete(`http://localhost:8000/articles/${articleId}`)
+      axios.delete(`http://localhost/react/react/api/articles/?id=${articleId}`)
       navigate('/')
 
     }
@@ -119,13 +119,13 @@ function Article(){
         <Col lg={4} >
           <div className="articleCardContainer">
             <div className="cardHeader">
-              <img src={articleData.image} />
+              <img src={articleData.image}  />
               <h4>{articleData.title}</h4>
             </div>
             <div className="cardBody">
               <p>
                 <BsPencilSquare size='20px'/>
-                Writer: <b>{articleData.writer}</b>
+                Writer: <b>{articleData.writter}</b>
               </p>
 
               <p>
