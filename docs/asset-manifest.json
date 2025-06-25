@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-app/static/css/main.c3c0aaf1.css",
-    "main.js": "/my-react-app/static/js/main.25844119.js",
+    "main.js": "/my-react-app/static/js/main.b8c40183.js",
     "static/media/BungeeSpice-Regular.ttf": "/my-react-app/static/media/BungeeSpice-Regular.f2424b1fa1a22588bd71.ttf",
     "static/media/PTSerif-Regular.ttf": "/my-react-app/static/media/PTSerif-Regular.6271ca9bf4c029802fc0.ttf",
     "static/media/AlfaSlabOne.ttf": "/my-react-app/static/media/AlfaSlabOne.76486fb5cc170dab15a5.ttf",
@@ -9,10 +9,10 @@
     "static/media/hero.svg": "/my-react-app/static/media/hero.24d8171c233edfbedf66e8db29c49c04.svg",
     "index.html": "/my-react-app/index.html",
     "main.c3c0aaf1.css.map": "/my-react-app/static/css/main.c3c0aaf1.css.map",
-    "main.25844119.js.map": "/my-react-app/static/js/main.25844119.js.map"
+    "main.b8c40183.js.map": "/my-react-app/static/js/main.b8c40183.js.map"
   },
   "entrypoints": [
     "static/css/main.c3c0aaf1.css",
-    "static/js/main.25844119.js"
+    "static/js/main.b8c40183.js"
   ]
 }

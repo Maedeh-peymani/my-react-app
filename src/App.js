@@ -10,7 +10,7 @@ import Courses from "./pages/courses/Courses";
 function App (){
   return(
    
-    < BrowserRouter>
+    < BrowserRouter basename="/my-react-app">
        <Routes>
           <Route path="/" element={ <Home/> } />
           <Route path="/about" element={ <About/> } />
